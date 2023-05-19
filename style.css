@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://s1.eestatic.com/2020/06/03/curiosidades/curiosidades_494961313_153077108_1706x960.jpg);
+}
+
+h1{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.image img{
+    border-radius: 50%;
+    border: 50px solid black;
+    width: 400px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.botones #rojo{
+    width: 80px;
+    height: 40px;
+    border-radius: 10%;
+    border: red;
+    color: white;
+    background-color: red;
+    margin: 0 20px;
+    
+}
+
+.botones #amarillo{
+    width: 80px;
+    height: 40px;
+    border-radius: 10%;
+    border: yellow;
+    color: black;
+    background-color: yellow;
+    margin: 0 20px;
+   
+}
+
+.botones #verde{
+    width: 80px;
+    height: 40px;
+    border-radius: 10%;
+    border: green;
+    color: white;
+    background-color: green;
+    margin: 0 20px;
+    
+}
+
+.botones button:hover{
+    box-shadow: 0px 0px 2px 2px gray;
+    cursor: pointer;
+}
